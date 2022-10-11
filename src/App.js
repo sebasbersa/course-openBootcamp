@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+// import Greeting from './pure/greeting';
+// import GreetingF from './componentes/pure/greetingF';
+// import TaskListComponent from './componentes/container/task_list';
+import ComponenteA from './componentes/container/componenteA';
+// import ContactoComponent from './componentes/container/contacto';
 
 function App() {
   return (
@@ -9,14 +14,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ComponenteA/>
       </header>
     </div>
   );
